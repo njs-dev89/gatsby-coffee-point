@@ -14,7 +14,7 @@ function Product({ product }) {
             data-item-id={product.id}
             data-item-price={product.price}
             data-item-url="https://gatsby-coffee-point.netlify.app/"
-            data-item-image={product.image.fluid.src}
+            // data-item-image={product.image.fluid.src}
             data-item-name={product.title}
           >
             Add to cart
