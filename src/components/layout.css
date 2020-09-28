@@ -60,3 +60,8 @@ h6 {
 .footer {
   background-color: var(--mainBrown);
 }
+
+.menu,
+.contact {
+  background-color: var(--mainGrey);
+}

@@ -62,7 +62,7 @@ export default class Navbar extends Component {
               ))}
               <li className="nav-item ml-5">
                 <Link className="nav-link">
-                  <RiShoppingCartLine className="cart-icon" />
+                  <RiShoppingCartLine className="cart-icon snipcart-checkout" />
                 </Link>
               </li>
             </ul>
