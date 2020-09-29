@@ -1,6 +1,5 @@
 import { StaticQuery, graphql } from "gatsby"
 import React from "react"
-import BackgroundSection from "../Globals/BackgroundSection"
 import Title from "../Globals/Title"
 import Product from "./Product"
 
@@ -14,7 +13,7 @@ const getProducts = graphql`
         image {
           fluid {
             src
-            ...GatsbyContentfulFluid
+            ...GatsbyContentfulFluid_tracedSVG
           }
         }
       }
