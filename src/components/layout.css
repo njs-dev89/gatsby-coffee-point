@@ -65,3 +65,7 @@ h6 {
 .contact {
   background-color: var(--mainGrey);
 }
+
+.gatsby-image-wrapper {
+  height: 15rem;
+}
